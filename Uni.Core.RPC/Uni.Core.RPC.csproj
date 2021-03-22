@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotNetty.Buffers" Version="0.6.0" />
+    <PackageReference Include="DotNetty.Codecs" Version="0.6.0" />
+    <PackageReference Include="DotNetty.Transport" Version="0.6.0" />
+    <PackageReference Include="Grpc.Core" Version="2.34.0" />
+    <PackageReference Include="ImpromptuInterface" Version="7.0.1" />
+    <PackageReference Include="MessagePack" Version="2.1.194" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastruce\Uni.Common\Uni.Common.csproj" />
+    <ProjectReference Include="..\Uni.Core\Uni.Core.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,9 @@
+﻿{
+  "Raft.Agent": {
+    "commandName": "Project",
+    "launchBrowser": false,
+    "environmentVariables": {
+      "ASPNETCORE_ENVIRONMENT": "Development"
+    }
+  }
+}
