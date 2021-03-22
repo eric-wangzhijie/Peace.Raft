@@ -1,2 +1,2 @@
 # Peace.Raft
-This a demo just for study only.
+This is a demo just for study only.
